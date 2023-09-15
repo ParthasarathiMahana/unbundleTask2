@@ -155,7 +155,6 @@ body{
   right: 0;
   height: 35vh;
   width: 2.5vw;
-  border: 1px solid black;
   background-color: black;
 }
 .reviews svg{
@@ -169,7 +168,6 @@ body{
   position: fixed;
   right: 2vw;
   bottom: 4vh;
-  border: 1px solid black;
   background-color: black;
   border-radius: 50%;
   box-shadow: 1px -0.5px 15px gray;
@@ -184,9 +182,7 @@ body{
 
 .tagLine{
   font-weight: 700;
-  font-size: 0.8rem;
-  margin-top: 10vh;
-  margin-left: 45vw;
+  font-size: 1rem;
 }
 
 .productSlideShow{
@@ -194,15 +190,12 @@ body{
   justify-content: center;
   align-items: center;
   height: 50vh;
-  border: 1px solid red;
 }
 .productBlogs{
   height: 480vh;
-  border: 1px solid blue;
 }
 .abtPursuit{
   height: 80vh;
-  border: 1px solid black;
 }
 
 .journalsContainer{
