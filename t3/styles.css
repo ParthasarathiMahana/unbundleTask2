@@ -1,0 +1,212 @@
+body{
+  margin: 0;
+  /* border: 1px solid black; */
+}
+.offer{
+  height: 6.5vh;
+  border: 1px solid black;
+}
+.navbar{
+  height: 13vh;
+  border: 1px solid red;
+  position: sticky;
+  top: 0px;
+  background-color: transparent;
+}
+.slideshowcontainer{
+  height: 80vh;
+  border: 1px solid blue;
+  position: relative;
+  top: -11vh;
+}
+.reviews{
+  position: fixed;
+  top: 36vh;
+  right: 0;
+  height: 35vh;
+  width: 2.5vw;
+  border: 1px solid black;
+  background-color: black;
+}
+.reviews svg{
+  height: 7%;
+  padding-left: 0.7rem;
+  margin-top: 1rem;
+}
+.chatwithUs{
+  height: 30px;
+  width: 30px;
+  position: fixed;
+  right: 2vw;
+  bottom: 4vh;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: 1px -0.5px 15px gray;
+}
+.productSlideshow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  border: 1px solid red;
+}
+.productBlogs{
+  height: 480vh;
+  border: 1px solid blue;
+}
+.abtPursuit{
+  height: 80vh;
+  border: 1px solid black;
+}
+.journalsContainer{
+  height: 150vh;
+  background-color: #f9f6ef;
+  display: flex;
+  flex-direction: column;
+}
+.journalsContainer .heading{
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  font-size: 2.5rem;
+}
+.journal{
+  border: 1px solid red;
+  height: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.j1, .j2, .j3{
+  height: 80%;
+  width: 29%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.jImg{
+  display: flex;
+  justify-content: center;
+  height: 40%;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+  position: relative;
+}
+.jImg img{
+  transform: scaleX(200%);
+  transform: scaley(100%);
+}
+.jcLinks{
+  height: 20%;
+}
+.jcHeading{
+  height: 20%;
+}
+.jcText{
+  height: 40%;
+}
+.jcReadMore{
+  height: 20%;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+  height: 84.5vh;
+  background-color: black;
+}
+.contactDetails{
+  height: 70%;
+  display: flex;
+}
+.footlogo{
+  display: flex;
+  justify-content: center;
+  width: 15%;
+}
+.footlogo img{
+  margin-top: 50%;
+  height: 8%;
+}
+.footlogo img:hover{
+  cursor: pointer;
+}
+.socials{
+  display: flex;
+  justify-content: space-evenly;
+  width: 15%;
+}
+.socials svg{
+  height: 5%;
+  margin-top: 55%;
+}
+.links{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+.l1{
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+.l2, .l3{
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+.l1 p, .l2 p, .l3 p{
+  border-bottom: 1px solid white;
+}
+.links:hover p{
+  cursor: pointer;
+}
+.form{
+  margin-top: 1rem;
+  width: 35%;
+}
+.sit{
+  color: white;
+  font-size: 2rem;
+}
+.textBox{
+  margin-top: 1rem;
+}
+.textBox input{
+  width: 80%;
+  height: 10vh;
+  background-color: transparent;
+  border: 1px solid white;
+  padding-left: 1rem;
+  color: white;
+  outline: none;
+  font-size: 1rem;
+}
+.check{
+  margin-top: 0.5rem;
+  color: white;
+}
+.form .btn button{
+  margin-top: 1.5rem;
+  width: 85%;
+  height: 10vh;
+  color: black;
+  font-weight: 700;
+  border: none;
+  background-color: #face93;
+  border-radius: 5px;
+}
+.reserved{
+  padding-top: 3%;
+  text-align: center;
+  color: rgb(170, 170, 170);
+  font-size: 1.3rem;
+  font-weight: 300;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
